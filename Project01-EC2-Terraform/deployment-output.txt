@@ -1,0 +1,3 @@
+ec2_id = "i-0090dcc0514eecec5"
+web_public_ip = "13.203.219.245"
+web_url = "http://13.203.219.245"
