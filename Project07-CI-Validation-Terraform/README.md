@@ -22,6 +22,10 @@ Automate Terraform quality checks using GitHub Actions.
 - GitHub Actions pipeline
 - Pipeline execution screenshot
 
+## Workflow Badge
+
+[![Terraform Validation](https://github.com/PJC-com/CapstoneProjects/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/PJC-com/CapstoneProjects/actions/workflows/terraform-ci.yml)
+
 ## Result
 
 Successfully automated Terraform validation using GitHub Actions.
