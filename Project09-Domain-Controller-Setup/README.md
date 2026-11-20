@@ -1,3 +1,5 @@
+# Project 9 - Domain Controller Setup
+
 ## Authentication Validation
 
 The Active Directory domain was successfully configured and two domain users were created.
