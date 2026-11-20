@@ -9,6 +9,10 @@ jobs:
   terraform-plan:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: Project12-Infrastructure-CI-Trigger
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -26,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: terraform-plan
-          path: tfplan
+          path: Project12-Infrastructure-CI-Trigger/tfplan
