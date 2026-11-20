@@ -29,3 +29,17 @@ Automate Terraform quality checks using GitHub Actions.
 ## Result
 
 Successfully automated Terraform validation using GitHub Actions.
+
+## CI Pipeline
+
+GitHub Actions automatically performs:
+
+```bash
+terraform fmt -check
+terraform init
+terraform validate
+```
+
+whenever code is pushed to the repository.
+
+The workflow ensures Terraform code quality and validation before deployment.
