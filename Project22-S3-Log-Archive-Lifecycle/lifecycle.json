@@ -1,0 +1,14 @@
+{
+  "Rules": [
+    {
+      "ID": "Project22LifecycleRule",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": ""
+      },
+      "Expiration": {
+        "Days": 30
+      }
+    }
+  ]
+}
