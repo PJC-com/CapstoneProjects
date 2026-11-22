@@ -1,0 +1,48 @@
+Project 24 - Manual Chaos Test
+
+Incident ID:
+P24-2026-001
+
+Date:
+22-Nov-2026
+
+Affected Service:
+Apache HTTP Server (apache2)
+
+Detection Time:
+09:45 UTC
+
+Incident Summary:
+A controlled failure was introduced by stopping the Apache service to validate operational recovery procedures.
+
+Observed Impact:
+Web service became unavailable while the Apache process was stopped.
+
+Failure Simulation:
+
+sudo systemctl stop apache2
+
+Observed State:
+
+inactive (dead)
+
+Recovery Action:
+
+sudo systemctl start apache2
+
+Verification:
+
+systemctl status apache2
+
+Observed State After Recovery:
+
+active (running)
+
+Root Cause:
+Intentional service shutdown performed as part of chaos testing.
+
+Recovery Status:
+Successful
+
+Lessons Learned:
+Service recovery procedure verified successfully.
